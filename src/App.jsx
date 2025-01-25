@@ -151,7 +151,7 @@ function App() {
               <li key={index}>{index + 1}. {clue}</li>
             ))}
           </ul>
-          <div>
+          <div>r
             <button onClick={validateSolution}>Submit Solution</button>
             <button onClick={revealHint}>Hint ({hints} left)</button>
           </div>
